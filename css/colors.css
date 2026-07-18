@@ -1,0 +1,15 @@
+:root {
+  --primary-bg: #ffffff;
+  --primary-text: #030c01;
+  --footer-bg: #eeee60;
+
+  --btn-gradient-start: #e8e81c;
+  --btn-gradient-end: #42ed13;
+  --btn-clicked-bg: #4e544d;
+  --btn-clicked-text: #ffffff;
+
+  --pagination-btn-hover: #d9fbcf;
+  --pagination-btn-active: #7af259;
+  
+  --text-color: #030c01; 
+}
