@@ -160,7 +160,12 @@ async function loadBestsellers() {
 			params: { category: "top" },
 		});
 
-		topBouquets = Array.isArray(data) ? data : [];
+		const all = Array.isArray(data) ? data : [];
+		// json-server filters by category=top server-side already, so this
+		// filter is a no-op there. The static build (GitHub Pages) serves the
+		// whole collection as one file with no server-side filtering, so we
+		// filter client-side to get only the "top" items in both cases.
+		topBouquets = all.filter((item) => item.category === "top");
 		bestsellersIndex = 0;
 
 		bestsellersById.clear();
@@ -193,11 +198,23 @@ function hideEndMessage() {
 }
 
 async function fetchBouquetsPage(page) {
-	const { data } = await apiClient.get("/bouquets", {
+	const { data: raw } = await apiClient.get("/bouquets", {
 		params: { _page: page, _per_page: BOUQUETS_PER_PAGE },
 	});
+
 	// json-server v1 pagination shape: { first, prev, next, last, pages, items, data: [...] }
-	return data;
+	if (raw && !Array.isArray(raw) && Array.isArray(raw.data)) {
+		return { data: raw.data, next: raw.next };
+	}
+
+	// Static build (GitHub Pages) serves the whole collection as one flat
+	// array with no server-side pagination/filtering, so we paginate it here
+	// on the client instead.
+	const all = Array.isArray(raw) ? raw : [];
+	const start = (page - 1) * BOUQUETS_PER_PAGE;
+	const pageItems = all.slice(start, start + BOUQUETS_PER_PAGE);
+	const hasMore = start + BOUQUETS_PER_PAGE < all.length;
+	return { data: pageItems, next: hasMore ? page + 1 : null };
 }
 
 async function loadInitialBouquets() {
