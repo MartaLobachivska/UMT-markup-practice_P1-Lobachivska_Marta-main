@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "main": "vite.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "preview": "vite preview",
+    "preview:pages": "GITHUB_ACTIONS=true GITHUB_REPOSITORY=MartaLobachivska/UMT-markup-practice-P1-Lobachivska_Marta VITE_API_MODE=static sh -c 'vite build && vite preview'",
+    "build": "vite build",
+    "api": "json-server db.json --port 3001"
   },
   "keywords": [],
-  "author": "",
+  "author": "Marta Lobachivska",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "axios": "^1.18.1"
+    "axios": "^1.18.1",
+    "json-server": "^1.0.0-beta.15"
+  },
+  "devDependencies": {
+    "vite": "^8.1.5"
   }
 }

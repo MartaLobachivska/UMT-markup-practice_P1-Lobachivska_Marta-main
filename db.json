@@ -99,5 +99,159 @@
       "alt": "Soft Bloom bouquet",
       "category": "regular"
     }
+  ],
+
+  "feedbacks": [
+		{
+			"id": 1,
+			"text": "Flora made my anniversary unforgettable with their beautiful arrangement!",
+			"author": "Emma T.",
+			"location": ""
+		},
+		{
+			"id": 2,
+			"text": "Absolutely stunning bouquet! It looked even better than the photo and arrived right on time.",
+			"author": "Daniel R.",
+			"location": ""
+		},
+		{
+			"id": 3,
+			"text": "The service was exceptional, and the flowers were fresh!",
+			"author": "Olivia M.",
+			"location": ""
+		},
+		{
+			"id": 4,
+			"text": "The peonies looked even better in person and stayed fresh for over a week — totally worth it.",
+			"author": "Sophie L.",
+			"location": "Perth, AU"
+		},
+		{
+			"id": 5,
+			"text": "A last-minute birthday bouquet arrived the same afternoon. Lifesaving, elegant, gorgeous.",
+			"author": "Jacob H.",
+			"location": "Adelaide, AU"
+		},
+		{
+			"id": 6,
+			"text": "Each arrangement looks like a piece of art — my mom cried happy tears when she opened it.",
+			"author": "Mia W.",
+			"location": "Canberra, AU"
+		},
+		{
+			"id": 7,
+			"text": "Excellent communication and gorgeous flowers. The team nailed our wedding-anniversary palette.",
+			"author": "Ethan K.",
+			"location": "Newcastle, AU"
+		},
+		{
+			"id": 8,
+			"text": "Tulip Charm exceeded expectations — vibrant, fragrant, and elegantly wrapped. Highly recommend.",
+			"author": "Ava S.",
+			"location": "Hobart, AU"
+		},
+		{
+			"id": 9,
+			"text": "Fresh blooms, thoughtful packaging, and a kind handwritten note. The detail is unmatched.",
+			"author": "Noah P.",
+			"location": "Gold Coast, AU"
+		},
+		{
+			"id": 10,
+			"text": "Field Joy brought so much warmth into our living room. It felt like sunshine in a vase.",
+			"author": "Charlotte B.",
+			"location": "Wollongong, AU"
+		},
+		{
+			"id": 11,
+			"text": "Berry Bloom was the centerpiece of my dinner party. Guests kept asking where it came from.",
+			"author": "Liam G.",
+			"location": "Geelong, AU"
+		},
+		{
+			"id": 12,
+			"text": "Customer service was top-notch — they built a custom palette for my sister's graduation.",
+			"author": "Isabella V.",
+			"location": "Cairns, AU"
+		},
+		{
+			"id": 13,
+			"text": "Soft Bloom is so romantic. The packaging alone made my partner emotional on opening it.",
+			"author": "Henry M.",
+			"location": "Darwin, AU"
+		},
+		{
+			"id": 14,
+			"text": "Lavender Dream filled the whole room with a gentle scent. Beautiful and well worth the price.",
+			"author": "Amelia N.",
+			"location": "Toowoomba, AU"
+		},
+		{
+			"id": 15,
+			"text": "I get fresh weekly arrangements for the office now — everyone loves the cheerful vibe.",
+			"author": "Lucas F.",
+			"location": "Ballarat, AU"
+		},
+		{
+			"id": 16,
+			"text": "Spring Elegance arrived in flawless condition. The colors matched the website exactly.",
+			"author": "Harper J.",
+			"location": "Bendigo, AU"
+		},
+		{
+			"id": 17,
+			"text": "Pastel Garden is a stunner. The basket arrangement looked even better in person.",
+			"author": "Oliver D.",
+			"location": "Launceston, AU"
+		},
+		{
+			"id": 18,
+			"text": "Blush Romance was perfect for our wedding centerpiece. Subtle, elegant, and balanced.",
+			"author": "Evelyn C.",
+			"location": "Townsville, AU"
+		},
+		{
+			"id": 19,
+			"text": "Peach Meadow made my grandmother smile for days. The peach palette is truly special.",
+			"author": "Mason A.",
+			"location": "Bunbury, AU"
+		},
+		{
+			"id": 20,
+			"text": "Berry Chic delivered on the promise — bridal-grade quality and unforgettable colors.",
+			"author": "Ella R.",
+			"location": "Mackay, AU"
+		},
+		{
+			"id": 21,
+			"text": "Sweet Whisper smelled incredible and held up for over a week. Excellent value for money.",
+			"author": "Jackson Q.",
+			"location": "Rockhampton, AU"
+		},
+		{
+			"id": 22,
+			"text": "I love how Flora packages each stem with care. Even my cat couldn't keep her paws off!",
+			"author": "Scarlett U.",
+			"location": "Tamworth, AU"
+		},
+		{
+			"id": 23,
+			"text": "The driver was so kind — he waited an extra minute so my daughter could come to the door.",
+			"author": "Logan Y.",
+			"location": "Orange, AU"
+		},
+		{
+			"id": 24,
+			"text": "Flora is now my go-to for every celebration. Reliable, elegant, and always fresh.",
+			"author": "Zoe X.",
+			"location": "Dubbo, AU"
+		},
+		{
+			"id": 25,
+			"text": "If you're hesitating to order, don't. Flora's arrangements always exceed expectations.",
+			"author": "Wyatt Z.",
+			"location": "Albury, AU"
+		}
   ]
 }
+
