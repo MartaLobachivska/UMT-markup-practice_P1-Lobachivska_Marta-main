@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Spring Elegance",
-      "description": "A delicate blend of peonies, tulips, and roses — perfect for springtime gifting and bright smiles.",
+      "description": "Each stem is carefully selected to create a bouquet that radiates freshness, elegance, and the gentle charm of spring. Whether you’re celebrating a birthday, sending love, or simply brightening someone’s day, this arrangement is sure to bring warm smiles and lasting impressions.",
       "price": 35,
       "image": "vernal-grace-bouquet.webp",
       "alt": "Spring Elegance bouquet",
@@ -93,7 +93,7 @@
     {
       "id": 11,
       "name": "Soft Bloom",
-      "description": "A delicate bouquet of pink carnations and roses wrapped in satin paper — soft, stylish, and versatile.",
+      "description": " bouquet of pink carnations and roses wrapped in satin paper — soft, stylish, and versatile.",
       "price": 37,
       "image": "tender-petal-glow.webp",
       "alt": "Soft Bloom bouquet",
